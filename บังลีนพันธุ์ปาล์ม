@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>บังลีนพันธุ์ปาล์ม - ขายพันธุ์ปาล์มน้ำมันแท้</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #228B22;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            background: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .product-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 300px;
+            text-align: center;
+            padding: 10px;
+            background: #f9f9f9;
+        }
+        .product-card img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #228B22;
+            color: white;
+        }
+        .btn {
+            display: inline-block;
+            margin: 10px 0;
+            padding: 10px 20px;
+            color: white;
+            background: #ff8c00;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #e67300;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>บังลีนพันธุ์ปาล์ม</h1>
+        <p>ขายพันธุ์ปาล์มน้ำมันแท้หลากหลายพันธุ์ พร้อมส่งถึงที่</p>
+    </header>
+    <nav>
+        <a href="#about">เกี่ยวกับเรา</a>
+        <a href="#products">สินค้า</a>
+        <a href="#contact">ติดต่อเรา</a>
+    </nav>
+    <section id="about">
+        <h2>เกี่ยวกับเรา</h2>
+        <p>บังลีนพันธุ์ปาล์ม จำหน่ายพันธุ์ปาล์มน้ำมันแท้ เช่น ยางบี (Yangambi), เซราด (Serad), และท็อปเทเนร่า (Top Tenera) ทุกต้นมีใบรับรองแท้ และบริการเก็บเงินปลายทาง</p>
+        <p>ราคาปกติ 170 บาท แต่ตอนนี้โปรโมชั่นพิเศษ เหลือเพียงต้นละ 140 บาท!</p>
+    </section>
+    <section id="products">
+        <h2>สินค้า</h2>
+        <div class="product">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300" alt="พันธุ์ Yangambi">
+                <h3>พันธุ์ Yangambi</h3>
+                <p>ราคาพิเศษ: 140 บาท</p>
+                <a href="#" class="btn">สั่งซื้อ</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300" alt="พันธุ์ Serad">
+                <h3>พันธุ์ Serad</h3>
+                <p>ราคาพิเศษ: 140 บาท</p>
+                <a href="#" class="btn">สั่งซื้อ</a>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300" alt="พันธุ์ Top Tenera">
+                <h3>พันธุ์ Top Tenera</h3>
+                <p>ราคาพิเศษ: 140 บาท</p>
+                <a href="#" class="btn">สั่งซื้อ</a>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>ติดต่อเรา</h2>
+        <p>เบอร์โทร: 0897927879</p>
+        <p>LINE: @bangleenpalms</p>
+        <p>ที่อยู่: อ่าวลึก กระบี่ </p>
+    </section>
+    <footer>
+        <p>&copy; 2024 บังลีนพันธุ์ปาล์ม. All rights reserved.</p>
+    </footer>
+</body>
+</html>
